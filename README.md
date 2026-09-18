@@ -4,14 +4,8 @@ Install SermonClip with:
 
 ```sh
 brew tap neatlee/sermonclip
-brew install --cask sermonclip
-```
-
-If you previously tapped the old location, remove it first:
-
-```sh
-brew untap stoneycreekbaptist/sermonclip
-brew tap neatlee/sermonclip
+brew trust --cask neatlee/sermonclip/sermonclip
+brew install --cask neatlee/sermonclip/sermonclip
 ```
 
 If SermonClip was already installed manually from the website, Homebrew can
@@ -19,7 +13,8 @@ adopt the existing app instead of treating it as a conflict:
 
 ```sh
 brew tap neatlee/sermonclip
-brew install --cask --adopt sermonclip
+brew trust --cask neatlee/sermonclip/sermonclip
+brew install --cask --adopt neatlee/sermonclip/sermonclip
 ```
 
 Update later with:
