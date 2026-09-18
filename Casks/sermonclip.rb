@@ -1,6 +1,6 @@
 cask "sermonclip" do
-  version "1.2.1"
-  sha256 "211484ff981fb5b5941bef379d32f64351cbc3b25c65a7b3b2ff35f6b9daa124"
+  version "1.2.2"
+  sha256 "9b5429c012c23f8efbb9e69333cd07d9e7f47da52a2fb0f28925517c85addb63"
 
   url "https://github.com/neatlee/SermonClip/releases/download/v#{version}/SermonClip-#{version}-arm64.dmg"
   name "SermonClip"

@@ -20,5 +20,6 @@ brew install --cask --adopt neatlee/sermonclip/sermonclip
 Update later with:
 
 ```sh
-brew upgrade --cask sermonclip
+brew update
+brew upgrade --cask neatlee/sermonclip/sermonclip
 ```
